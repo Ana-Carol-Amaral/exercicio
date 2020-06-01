@@ -1,0 +1,8 @@
+a{
+    color: brown;
+    text-decoration: crimson;
+}
+
+a:hover{
+    color: black;
+}
