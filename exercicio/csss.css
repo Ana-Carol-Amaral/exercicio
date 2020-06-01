@@ -1,0 +1,13 @@
+#home, #sobre, #contato{
+    color: blue;
+    font-size: 16px;
+}
+
+a{
+    color: brown;
+    text-decoration: crimson;
+}
+
+a:hover{
+    color: black;
+}
