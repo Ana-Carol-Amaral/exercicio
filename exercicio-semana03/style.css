@@ -1,0 +1,50 @@
+.width{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.menu{
+    padding: 0;
+    background-color:   #03A9F4; 
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li:hover{
+    background-color: #0288D1;
+}
+
+.menu li a{
+    padding: 15px 10px;
+    display: inline-block;
+    color:  #FFFFFF;
+    text-decoration: none;
+}
+
+.float{
+    float: right;
+}
+
+.color{
+    color:  #FFFFFF;
+    background-color:#FF5252;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.color:hover{
+    background-color: rgba(255, 82, 82, 0.651);
+}
+
+div{
+    font-family: 'Tenali Ramakrishna', sans-serif 50px;
+}
+
+.text-color{
+    color: #212121;;
+}
+
