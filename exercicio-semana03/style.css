@@ -45,6 +45,13 @@ div{
 }
 
 .text-color{
-    color: #212121;;
+    color: #212121;
 }
 
+.grid-container-p{
+    margin-left: 26px;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
