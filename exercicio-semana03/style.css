@@ -57,6 +57,44 @@ div{
     margin-left: 26px;
     margin-right: auto;
     max-width: 1200px;
-    padding-left: 10px;
+    padding-left: 12px;
     padding-right: 10px;
   }
+
+table{
+    padding: 2px;
+    border: solid #FF5252;
+    text-align: left;
+}
+
+table td{
+    padding: 10px;
+    border-bottom:  solid rgba(255, 82, 82, 0.692);
+    border-right: solid rgba(255, 82, 82, 0.692);
+    text-align: left;
+}
+
+table th{
+    padding: 10px;
+    border-bottom:  solid rgba(255, 82, 82, 0.692);
+    border-right: solid rgba(255, 82, 82, 0.692);
+    text-align: left;
+}
+
+tfoot th{
+    border-bottom: none;
+    border-right: solid rgba(255, 82, 82, 0.692);
+}
+
+.tf-th{
+    text-align: right;
+    border-bottom: none;
+}
+
+.salario{
+    border-right: none;
+}
+
+.secondary-text-color{
+    color: #757575; 
+}
