@@ -20,12 +20,69 @@
             </figure>
         </div>  
     </div>  
-    <div>
-        <ul class="menu">
-            <li><a href="Home.html" href="#home">Home</a></li>
-            <li><a href="QuemSomos.html" href="#quemsomos">Quem Somos</a></li>
-            <li><a href="Contato.html" href="#contato">Contato</a></li>
-        </ul>
+        <div>
+            <ul class="menu">
+                <li><a href="Home.html" href="#home">Home</a></li>
+                <li><a href="QuemSomos.html" href="#quemsomos">Quem Somos</a></li>
+                <li><a href="Contato.html" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+        <!--ROW-->
+        <div class="grid-container-p">
+            <div class="grid-70">
+                <h2>Contato</h2>
+                <div class="grid-50">
+                    <form action="registra.php" method="POST">
+                        <h3>Nome</h3>
+                        <label for="txtxNome">Nome</label>
+                        <input class="input" type="text" name="txtNome" id="txtNome" placeholder="Ex.:Ana Carolina" required>
+                        <br>
+                        <h3>Senha</h3>
+                        <label for="txtSenha">Password</label>
+                        <input class="input" type="password" name="txtSenha" id="txtSenha" placeholder="********" required> 
+                        <br>
+                        <h3>Estado</h3>
+                        <select class="input secondary-text-color" name="slEstado" id="slEstado" required>
+                            <option value="pr">Paraná</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                        </select>
+                        <br>
+                        <br>
+                    </form>
+                </div>
+                <!--ROW-->
+                <div class="grid-50">
+                <!--ROW-->
+                    <form action="registra.php" method="POST">
+                        <h3>E-mail</h3>
+                        <label for="txtEmail">E-mail</label>
+                        <input class="input" type="email" name="txtEmail" id="txtEmail" placeholder="Ex.:nome@email.com" required>
+                        <br>
+                        <h3>Sexo</h3>
+                        <label><input class="input" type="radio" name="rbSexo" value="h">Homem</label>
+                        <label><input class="input" type="radio" name="rbSexo" value="m">Mulher</label>
+                    </form>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                </div>
+                <!--ROW-->
+                <div class="grid-100">
+                    <h3>Fale um pouco sobre você</h3>
+                    <textarea class="input" name="txtsobre" cols="70" rows="3" placeholder="Texto"></textarea>
+                    <br>
+                    <input class="btn float" type="submit" value="Enviar">
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <!--ROW-->
+            <div class="grid-30">
+                
+            </div>
+        </div>
     </div>
 </body>
 

@@ -98,3 +98,29 @@ tfoot th{
 .secondary-text-color{
     color: #757575; 
 }
+
+.input{
+    padding: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+.input:focus{
+    box-shadow: 0 0 3px #FF5252;
+}
+
+.btn{
+    background-color: #FF5252;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: rgb(182, 62, 62);
+}
+
+.btn:active{
+    background-color: rgba(255, 82, 82, 0.671);
+}
