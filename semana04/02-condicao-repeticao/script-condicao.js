@@ -26,7 +26,7 @@ switch(numero){
         console.log('Domingo');
         break;
     default:
-        console.log('Dia da semana inváçido');
+        console.log('Dia da semana inválido');
 }
 
 /*
