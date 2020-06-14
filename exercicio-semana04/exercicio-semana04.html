@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Semana-04</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="unsemantic-grid-responsive.css">
+</head>
+
+<body class="width">
+    <div class="head">
+        <div class="logo mobile-grid-30">
+            <figure><a href="exercicio-semana04.html"><img src= "https://vignette.wikia.nocookie.net/pokeone/images/7/77/Pikachu.png/revision/latest/scale-to-width-down/340?cb=20180916045441" alt="Pikachu" title="Olá" width="100" height="80"></a></figure>
+        </div>
+        <div class="menu mobile-grid-70">
+            <ul>
+                <li><a href="exercicio-semana04.html">Quem Somos</a></li>
+                <li><a href="exercicio-semana04.html">Contato</a></li>
+                <li><a href="exercicio-semana04.html">Cadastro</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="box grid-100">
+        <h1 class="grid-100">Cadastro</h1>
+        <br>
+        <div class="grid-50">
+            <form action="registra.php" method="POST">
+                <h3>Nome</h3>
+                    <label for="txtxNome"></label>
+                    <input class="input mobile-grid-100" type="text" name="txtNome" id="txtNome" placeholder="Ex.: Ash Ketchum" required>
+                    <br>
+                    <br>
+                    <h3>Senha</h3>
+                    <label for="txtSenha"></label>
+                    <input class="input mobile-grid-100" type="password" name="txtSenha" id="txtSenha" placeholder="********" required> 
+                    <br>
+                    <br>
+                    <h3>Sexo</h3>
+                    <select class="input mobile-grid-100 secondary-text-color" name="slSexo" id="slSexo" required>
+                        <option value="m">Mulher</option>
+                        <option value="h">Homem</option>
+                    </select>
+            </form>
+        </div>
+
+        <div class="grid-50">
+            <form action="registra.php" method="POST">
+                <h3>E-mail</h3>
+                <label for="txtEmail"></label>
+                <input class="input mobile-grid-100" type="email" name="txtEmail" id="txtEmail" placeholder="Ex.: pikachu@email.com" required>
+                <br>
+                <br>
+                <h3>Confirmar senha</h3>
+                <label for="txtSenha"></label>
+                <input class="input mobile-grid-100" type="password" name="txtSenha" id="txtSenha" placeholder="********" required> 
+                <br>
+                <br>
+                <h3>Data de nascimento</h3>
+                
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

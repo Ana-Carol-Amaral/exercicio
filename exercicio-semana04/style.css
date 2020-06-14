@@ -1,0 +1,57 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    padding: 0; 
+    padding-top: 40px;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li:hover{
+    background-color: rgb(228, 225, 225);
+}
+
+.menu li a{
+    padding: 0px 15px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    max-width: 30%;
+    float: left;
+}
+
+.head{
+    border-bottom: 1px solid black;
+    height: 85px;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(228, 225, 225);
+}
+
+.width{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.secondary-text-color{
+    color: #757575; 
+}
+
+.input{
+    padding: 3px;
+    outline: none;
+    font-size: 15px;
+    width: 570px;
+}
