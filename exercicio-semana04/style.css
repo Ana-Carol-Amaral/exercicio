@@ -2,11 +2,13 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .menu{
     padding: 0; 
     padding-top: 40px;
+
 }
 
 .menu li{
@@ -55,3 +57,51 @@
     font-size: 15px;
     width: 570px;
 }
+
+.cor{
+    color: red;
+}
+
+.textarea{
+    padding: 3px;
+    outline: none;
+    font-size: 15px;
+    width: 1160px;
+}
+
+.border{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+.btn{
+    background-color: rgb(160, 160, 1);
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 0, 0.788);
+}
+
+.btn:active{
+    background-color: rgba(255, 255, 0, 0.356);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.valido{
+    border: 1px solid green;
+}
+
+.invalido{
+    border: 1px solid red;
+}
+

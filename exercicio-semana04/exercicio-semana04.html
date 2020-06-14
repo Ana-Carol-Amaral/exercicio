@@ -27,43 +27,80 @@
     <div class="box grid-100">
         <h1 class="grid-100">Cadastro</h1>
         <br>
-        <div class="grid-50">
-            <form action="registra.php" method="POST">
-                <h3>Nome</h3>
-                    <label for="txtxNome"></label>
-                    <input class="input mobile-grid-100" type="text" name="txtNome" id="txtNome" placeholder="Ex.: Ash Ketchum" required>
-                    <br>
-                    <br>
-                    <h3>Senha</h3>
-                    <label for="txtSenha"></label>
-                    <input class="input mobile-grid-100" type="password" name="txtSenha" id="txtSenha" placeholder="********" required> 
-                    <br>
-                    <br>
-                    <h3>Sexo</h3>
-                    <select class="input mobile-grid-100 secondary-text-color" name="slSexo" id="slSexo" required>
-                        <option value="m">Mulher</option>
-                        <option value="h">Homem</option>
-                    </select>
-            </form>
-        </div>
+        <form id="frm" action="registra.php" method="POST">
+            <div class="grid-50">
+                <form action="registra.php" method="POST">
+                    <h3>Nome</h3>
+                        <label for="txtNome"></label>
+                        <input class="input mobile-grid-100" type="text" name="txtNome" id="txtNome" placeholder="Ex.: Ash Ketchum">
+                        <br>
+                        <br>
+                        <h3>Senha</h3>
+                        <label for="txtSenha"></label>
+                        <input class="input mobile-grid-100" type="password" name="txtSenha" id="txtSenha" placeholder="********"> 
+                        <br>
+                        <br>
+                        <h3>Sexo</h3>
+                        <select class="input mobile-grid-100 secondary-text-color" name="slSexo" id="slSexo">
+                            <option value="m">Mulher</option>
+                            <option value="h">Homem</option>
+                        </select>
+                </form>
+            </div>
 
-        <div class="grid-50">
-            <form action="registra.php" method="POST">
-                <h3>E-mail</h3>
-                <label for="txtEmail"></label>
-                <input class="input mobile-grid-100" type="email" name="txtEmail" id="txtEmail" placeholder="Ex.: pikachu@email.com" required>
+            <div class="grid-50">
+                <form action="registra.php" method="POST">
+                    <h3>E-mail</h3>
+                    <label for="txtEmail"></label>
+                    <input class="input mobile-grid-100" type="email" name="txtEmail" id="txtEmail" placeholder="Ex.: pikachu@email.com">
+                    <br>
+                    <br>
+                    <h3>Confirmar senha</h3>
+                    <label for="txtConf"></label>
+                    <input class="input mobile-grid-100" type="password" name="txtConf" id="txtConf" placeholder="********"> 
+                    <br>
+                    <br>
+                    <h3>Data de nascimento</h3>
+                    <label for="txtData"></label>
+                    <input class="input mobile-grid-100" id="txtData" type="date">
+                </form>
+            </div>
+
+            <div class="grid-100">
                 <br>
+                <h3 class="cor">Fale um pouco sobre você</h3>
+                <textarea class="textarea mobile-grid-100" id="txtSobre" cols="1200" rows="10" placeholder="Texto"></textarea>
                 <br>
-                <h3>Confirmar senha</h3>
-                <label for="txtSenha"></label>
-                <input class="input mobile-grid-100" type="password" name="txtSenha" id="txtSenha" placeholder="********" required> 
+            </div>
+
+            <div class="grid-50 mobile-grid-100 input" id="dvMensagem">
                 <br>
+                <ul>
+                    <li>
+                        Preencha corretamente seu nome;
+                    </li>
+                    <br>
+                    <li>
+                        Informe um e-mail válido;
+                    </li>
+                    <br>
+                    <li>
+                        Informe a data de nascimento;
+                    </li>
+                </ul>
+            </div>
+
+            <div class="grid-50 mobile-grid-100">
                 <br>
-                <h3>Data de nascimento</h3>
-                
-            </form>
-        </div>
+                <button class="btn" type="submit" onclick="validar();" >Enviar</button>
+            </div>
+        </form>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
 
     <script src="script.js"></script>
 </body>
