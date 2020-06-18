@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('frmCadastro').addEventListener('submit', (event) => { 
         var obj = getAttributes();
 
-        console.log(obj);
-
         if (!validar(obj))
             event.preventDefault();
     });
@@ -78,12 +76,12 @@ function createListError(data){
     var app = document.getElementById('mensagens');
     app.innerHTML = '';
 
-    var ul = document.getElementById('ul');
+    var ul = document.createElement('ul');
 
     for(let i = 0; i < data.length; i++){
         var li = document.createElement('li');
         li.innerHTML = '<div class="alert-warning">'+ data[i] +'</div>'
-        ul.appendChild(ul);
+        ul.appendChild(li);
     }
 
     app.appendChild
